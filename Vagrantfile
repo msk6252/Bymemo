@@ -3,9 +3,6 @@
 
 Vagrant.configure(2) do |config|
 
-  GUEST_RUBY_VERSION = '2.3.2'
-  GUEST_RAILS_VERSION = '4.2.7'
-
   config.vm.box = "bento/centos-6.7"
 
   config.vm.hostname = "react"
